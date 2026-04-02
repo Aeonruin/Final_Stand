@@ -1,0 +1,8 @@
+game = input("What's your favorite game? ")
+hours = int(input("How many hours have you put into your game per week? "))
+
+print ("Ah! so you're favorite game is {game}? Nice dude!")
+if hours >= 56:
+    print(f"{hours}? You're on that endgame grind my friend.")
+else:
+    print(f"{hours}? it seems you play casually.")
